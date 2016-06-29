@@ -1,0 +1,79 @@
+<!-- left side start-->
+<div class="left-side sticky-left-side">
+
+    <!--logo and iconic logo start-->
+    <div class="logo">
+        <a href="index.html"><img src="${pageContext.request.contextPath}/static/images/logo.png" alt=""/></a>
+    </div>
+
+    <div class="logo-icon text-center">
+        <a href="index.html"><img src="${pageContext.request.contextPath}/static/images/logo_icon.png" alt=""/></a>
+    </div>
+    <!--logo and iconic logo end-->
+
+
+    <div class="left-side-inner">
+
+        <!-- 只在小屏幕上可见 -->
+        <div class="visible-xs hidden-sm hidden-md hidden-lg">
+            <div class="media logged-user">
+                <img alt="" src="${pageContext.request.contextPath}/static/images/photos/user-avatar.png"
+                     class="media-object"/>
+
+                <div class="media-body">
+                    <h4><a href="#">管理员</a></h4>
+                    <span>"你好..."</span>
+                </div>
+            </div>
+
+            <h5 class="left-nav-title">账户信息</h5>
+            <ul class="nav nav-pills nav-stacked custom-nav">
+                <li><a href="#"><i class="fa fa-user"></i> <span>简介</span></a></li>
+                <li><a href="#"><i class="fa fa-cog"></i> <span>设置</span></a></li>
+                <li><a href="#"><i class="fa fa-sign-out"></i> <span>退出</span></a></li>
+            </ul>
+        </div>
+
+        <!--侧边导航栏开始-->
+        <ul class="nav nav-pills nav-stacked custom-nav">
+            <li class="menu-list"><a href="index.html"><i class="fa fa-home"></i> <span>首页</span></a>
+                <ul class="sub-menu-list">
+                    <li class=""><a href="blank_page.html">系统首页</a></li>
+                </ul>
+            </li>
+
+            <li class="menu-list"><a href=""><i class="fa fa-laptop"></i> <span>广告管理</span></a>
+                <ul class="sub-menu-list">
+                    <li><a href="blank_page.html"> 广告列表</a></li>
+                    <li><a href="blank_page.html"> 查询数据</a></li>
+                </ul>
+            </li>
+            <li class="menu-list nav-active"><a href=""><i class="fa fa-shopping-cart"></i> <span>应用商店管理</span></a>
+                <ul class="sub-menu-list">
+                    <li class="active"><a href="${pageContext.request.contextPath}/market/app/list"> 商品列表</a></li>
+                    <li><a href="${pageContext.request.contextPath}/market/app/hot?hot=1"> 热门推荐</a></li>
+                    <li><a href="${pageContext.request.contextPath}/market/app/query"> 数据查询</a></li>
+                </ul>
+            </li>
+            <li class="menu-list"><a href=""><i class="fa fa-bullhorn"></i> <span>上网购买</span></a>
+                <ul class="sub-menu-list">
+                    <li><a href="grids.html"> 套餐设置</a></li>
+                    <li><a href="gallery.html"> 工厂套餐管理</a></li>
+                    <li><a href="calendar.html"> 订单管理</a></li>
+                </ul>
+            </li>
+
+            <li><a href="fontawesome.html"><i class="fa fa-lightbulb-o"></i> <span>用户反馈</span></a></li>
+
+            <li class="menu-list"><a href=""><i class="fa fa-user"></i> <span>账号管理</span></a>
+                <ul class="sub-menu-list">
+                    <li><a href="mail.html"> 账号列表</a></li>
+                </ul>
+            </li>
+
+        </ul>
+        <!--侧边导航栏结束-->
+
+    </div>
+</div>
+        <!-- 左侧边栏结束-->
